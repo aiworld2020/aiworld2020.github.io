@@ -301,6 +301,9 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
 }
 
+
+
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -464,14 +467,14 @@ section {
     padding: 0;
 }
 
-    .about .content ul li {
+.about .content ul li {
         padding-bottom: 10px;
     }
 
     .about .content ul i {
         font-size: 20px;
         padding-right: 4px;
-        color: #16df7e;
+        color: #198754;
     }
 
 .about .content p:last-child {
@@ -1454,15 +1457,14 @@ section {
 .courses .icon-box {
     display: flex;
     align-items: center;
-    padding: 10px;
     transition: 0.3s;
-    border: 1px solid #eef0ef;
+    border: 0px solid #eef0ef;
 }
 
  .courses .icon-box i {
-    font-size: 32px;
-    padding-right: 10px;
-    line-height: 1;
+    font-size: 20px;
+    padding-right: 6px;
+    
  }
 
  .courses .icon-box h3 {
@@ -1487,6 +1489,10 @@ section {
     color: #009cea;
 }
 
+.courses .content-fixed {
+    min-height:100px;
+}
+
 /*--------------------------------------------------------------
 # Courses
 --------------------------------------------------------------*/
@@ -1494,11 +1500,12 @@ section {
     border-radius: 5px;
     border: 1px solid #eef0ef;
     margin-bottom: 30px;
-    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    #box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
 .courses .course-content {
     padding: 15px;
+    
 }
 
 .courses .course-content h2 {
@@ -1508,18 +1515,86 @@ section {
 }
 
 .course-item .course-links {
-    margin-top: 15px;
-    padding-top: 15px;
+    margin-top: 5px;
+    padding-top: 5px;
     border-top: 1px solid #eef0ef;
 }
+
+ 
 
 .course-item .link-primary {
     color: #009cea;
 }
 
 .course-item img {
-    height: 200px;
+    height: 80px;
 }
+
+.course-item .link-success {
+    color: #0b84f2;
+}
+
+.course-item .course_bg1 {
+    height: 100px;
+    background: #ff7043 url(../img/bg1.png) top center/cover no-repeat;
+}
+
+.course-item .course_bg2 {
+    height: 100px;
+    background: #2B358E url(../img/course_bg2.png) top center/cover no-repeat;
+}
+
+.course-item .course_bg3 {
+    height: 100px;
+    background: #8bc34a url(../img/course_bg3.png) top center/cover no-repeat;
+}
+
+.course-item .course_bg4 {
+    height: 100px;
+    background: #ab47bc url(../img/course_bg4.png) top center/cover no-repeat;
+}
+
+.course-item .course_bg5 {
+    height: 100px;
+    background: #4285f4 url(../img/course_bg5.png) top center/cover no-repeat;
+}
+
+.course-item .course_bg6 {
+    height: 100px;
+    background: #ec407a url(../img/course_bg6.png) top center/cover no-repeat;
+}
+
+
+.course-item .img1 {
+    margin-top: -50px;
+    border: 1px solid #D3483E;
+}
+
+.course-item .img2 {
+    margin-top: -50px;
+    border: 1px solid #2B358E;
+}
+
+.course-item .img3 {
+    margin-top: -50px;
+    border: 1px solid #618A3D;
+}
+
+.course-item .img4 {
+    margin-top: -50px;
+    border: 1px solid #71269C;
+}
+
+.course-item .img5 {
+    margin-top: -50px;
+    border: 1px solid #274DA0;
+}
+
+.course-item .img6 {
+    margin-top: -50px;
+    border: 1px solid #B22D5B;
+}
+
 
 /**
     Swiper
@@ -1614,5 +1689,80 @@ section {
             color: #0b198f;
         }
 
+
+ul.checklist {
+    list-style: none;
+}
+
+    ul.checklist i {
+        color: #198754;
+        padding-right: 4px;
+    }
+
+
+/*--------------------------------------------------------------
+# Inner Page Featured Services
+--------------------------------------------------------------*/
+.featured-services {
+    padding-bottom: 30px;
+}
+
+    .featured-services .icon-box {
+        padding: 20px;
+        color: #5f687b;
+        #background: #f9f9fa;
+        border-radius: 4px;
+        border: 1px solid #f9f9fa;
+        transition: 0.3s;
+        height: 100%;
+        border-color: #eaecef;
+    }
+
+    .featured-services .icon {
+        margin: 0 0 15px 0;
+    }
+
+        .featured-services .icon i {
+            color: #3871E0;
+            font-size: 42px;
+        }
+
+    .featured-services .title {
+        font-weight: 600;
+        margin-bottom: 15px;
+        font-size: 18px;
+    }
+
+        .featured-services .title a {
+            color: #5f687b;
+            transition: 0.3s;
+        }
+
+    .featured-services .icon-box:hover {
+        border-color: #eaecef;
+    }
+
+        .featured-services .icon-box:hover .title a {
+            color: #16df7e;
+        }
+
+    .featured-services .description {
+        line-height: 24px;
+        font-size: 14px;
+       
+    }
+
+    .featured-services .check {
+        padding-right: 10px;
+    }
+
+    .featured-services ul li {
+        list-style: none;
+        text-align: left;
+        margin-bottom: 5px;
+    }
+
+    .featured-services .special {
+        #background-color: #f9f9fa;
         
-  
+    }

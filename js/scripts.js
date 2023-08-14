@@ -5,3 +5,9 @@
 */
 // This file is intentionally blank
 // Use this file to add JavaScript to your project
+
+document.addEventListener("contextmenu", function (e) {
+    if (e.target.tagName === "IMG") {
+        e.preventDefault();
+    }
+});

@@ -1,7 +1,8 @@
 [
   {
     "title": "Tufts University Biomedical Engineering Research Scholars (TUBERS)",
-    "description": "\u00e2\u0080\u008bThe Tufts University Biomedical Engineering Research Scholars (TUBERS) Program is dedicated to providing unique and rewarding research experiences at Tufts for dedicated, academically-talented high school students.",
+    "description": "The Tufts University Biomedical Engineering Research Scholars (TUBERS) Program is dedicated to providing unique and rewarding research experiences at Tufts for dedicated, academically-talented high school students.",
+    "url": "https://www.tuftstubers.com/",
     "field": "Engineering",
     "type": "Research",
     "mode": "In-person",
@@ -15,6 +16,7 @@
   {
     "title": "Youth Forward Program",
     "description": "Youth Forward is a full service program designed to help both in and out of school youth reach their educational and employment goals. This comprehensive program achieves this by utilizing a comprehensive, collaborative approach to creating opportunities for youth.",
+    "url": "https://ucnj.org/dhs/youth-services/youth-forward/",
     "field": "Business",
     "type": "Program",
     "mode": "In-person",
@@ -28,6 +30,7 @@
   {
     "title": "Yale Summer Session",
     "description": "Yale Summer Session seeks motivated high school students who wish to enroll in Yale College courses for credit. While enrolled in Yale courses, qualified high school students will share the classroom with college students and will do college-level work. All participants will be held to the same set of standards.",
+    "url": "https://summer.yale.edu/apply/pre-college-students",
     "field": "Psychology",
     "type": "Program",
     "mode": "In-person",
@@ -40,7 +43,8 @@
   },
   {
     "title": "Yale Young Global Scholars",
-    "description": "YYGS is an academic enrichment program for outstanding high school students from around the world. Each summer, students from over 150 countries (including all 50 U.S. states) participate in one interdisciplinary, two-week session at Yale\u00e2\u0080\u0099s historic campus. Immerse yourself in a global learning community at Yale. (MULTIPLE SUBJECTS)",
+    "description": "YYGS is an academic enrichment program for outstanding high school students from around the world. Each summer, students from over 150 countries (including all 50 U.S. states) participate in one interdisciplinary, two-week session at Yales historic campus. Immerse yourself in a global learning community at Yale. (MULTIPLE SUBJECTS)",
+    "url": "https://globalscholars.yale.edu/",
     "field": "Science",
     "type": "Program",
     "mode": "In-person",
@@ -54,6 +58,7 @@
   {
     "title": "Writopia Lab High School Summer Internships",
     "description": "Writopia Lab is a 501c3 nonprofit organization founded in New York City in April of 2007. Our mission is to foster joy, literacy, and critical thinking in children and teens from all backgrounds through creative writing. High School interns serve as role models and provide workshop, editorial, and moral support to our six- to nine-year-old writers.",
+    "url": "https://www.writopialab.org/who-we-are/join-the-team#HSIntern",
     "field": "Writing",
     "type": "Internship",
     "mode": "In-person",
@@ -67,6 +72,7 @@
   {
     "title": "National Geographic Student Travel Program",
     "description": "Through National Geographic Student Travel, students can join the National Geographic Society and Explorers in the field over the summer and travel around the globe, all through the lens of an On Assignment project.",
+    "url": "https://www.nationalgeographic.com/expeditions/trip-types/student/",
     "field": "Environment",
     "type": "Program",
     "mode": "In-person",
@@ -80,6 +86,7 @@
   {
     "title": "Delaware Public Archives Volunteer and Intern",
     "description": "This program offers volunteer opportunities for high school students to work with archival materials and learn about Delaware history. Participants work on various projects, such as indexing and digitizing documents.",
+    "url": "https://archives.delaware.gov/employment/",
     "field": "Law",
     "type": "Research",
     "mode": "In-person",
@@ -93,6 +100,7 @@
   {
     "title": "Wisconsin Maritime Museum Volunteer",
     "description": "This program offers high school students the opportunity to gain experience in maritime history and museum operations by working with professionals at the Wisconsin Maritime Museum.",
+    "url": "https://www.wisconsinmaritime.org/join-and-give/volunteer/#:~:text=Volunteer%20at%20the%20Museum,(920)%20684%2D0218.",
     "field": "History",
     "type": "Internship",
     "mode": "In-person",
@@ -106,6 +114,7 @@
   {
     "title": "Garcia Research Program at Stony Brook University",
     "description": "This is an intensive seven week program for gifted high school students which combines formal instruction with independent research and allows students to design original research projects with guidance from Garcia Center faculty, students, and staff. Students can continue during the academic year in the Mentor Program.",
+    "url": "https://www.stonybrook.edu/commcms/garcia/summer_program/program_description",
     "field": "Science",
     "type": "Research",
     "mode": "In-person",
@@ -119,6 +128,7 @@
   {
     "title": "Stanford SHTEM",
     "description": "This internship is intended to provide early exposure to research transcending traditional disciplinary boundaries. Students will be grouped to multifaceted projects that will benefit from their existing interests and strengths, while exposing them to new areas. Projects will be mentored by students, faculty and staff of Stanford.",
+    "url": "https://compression.stanford.edu/outreach/shtem-summer-internships-high-schoolers-and-community-college-students",
     "field": "Science",
     "type": "Program",
     "mode": "Remote",
@@ -132,6 +142,7 @@
   {
     "title": "St. John's Pleasant Valley Hospital Student Volunteer Program",
     "description": "The year-round student volunteer program allows high school and college students (16 and older) an opportunity to volunteer at St. John's Hospital Camarillo.",
+    "url": "https://www.dignityhealth.org/central-coast/locations/pleasantvalley/about-us/volunteering/student-volunteer-opportunities",
     "field": "Medicine",
     "type": "Internship",
     "mode": "In-person",
@@ -144,7 +155,8 @@
   },
   {
     "title": "Summer Biomedical Internship Program",
-    "description": "The program matches high school students, in the summer between their junior and senior year of high school, with faculty members who have or are developing a research project. The faculty member, his or her staff and the SBI student work daily on this project for 6 \u00e2\u0080\u0093 7 weeks. Additionally, there are opportunities for field trips for the group...",
+    "description": "The program matches high school students, in the summer between their junior and senior year of high school, with faculty members who have or are developing a research project. The faculty member, his or her staff and the SBI student work daily on this project for 6  7 weeks. Additionally, there are opportunities for field trips for the group...",
+    "url": "https://fresno.ucsf.edu/summer-biomedical-internship-program",
     "field": "Medicine",
     "type": "Internship",
     "mode": "In-person",
@@ -158,6 +170,7 @@
   {
     "title": "Summer Academy for Math and Science (SAMS)",
     "description": "The program allows students to develop a deeper understanding of STEM via traditional classroom instruction, through hands-on projects, and sustained engagement with world-renowned faculty and skilled staff members.",
+    "url": "https://www.cmu.edu/pre-college/academic-programs/sams.html",
     "field": "Science",
     "type": "Program",
     "mode": "In-person",
@@ -171,6 +184,7 @@
   {
     "title": "Aspiring Scientists Summer Internship Program (ASSIP)",
     "description": "The nationally known Aspiring Scientists Summer Internship Program (ASSIP) provides transformative research opportunities for high school and undergraduate students. Selected participants work one-on-one with faculty researchers at George Mason University and collaborating institutions using state-of-the-art technology across many disciplines.",
+    "url": "https://science.gmu.edu/assip",
     "field": "Science",
     "type": "Internship",
     "mode": "In-person",
@@ -184,6 +198,7 @@
   {
     "title": "Arkansas Children's Job Shadowing Program",
     "description": "The job shadowing program at Arkansas Children's for high school students offers an online training education course and shadowing experience for individuals interested in learning about a specific area in health care. Students will be able to indicate their area of interest on the job shadowing application.",
+    "url": "https://secure.archildrens.org/jobshadowing/applications/highschool/",
     "field": "Medicine",
     "type": "Internship",
     "mode": "Hybrid",
@@ -196,7 +211,8 @@
   },
   {
     "title": "BRAINYAC",
-    "description": "The Zuckerman Institute\u00e2\u0080\u0099s Brain Research Apprenticeships in New York at Columbia (BRAINYAC) program prepares today\u00e2\u0080\u0099s youth to become tomorrow\u00e2\u0080\u0099s scientists. BRAINYAC provides high-schoolers with an immersive, hands-on summer research experience in a Columbia laboratory.",
+    "description": "The Zuckerman Institutes Brain Research Apprenticeships in New York at Columbia (BRAINYAC) program prepares todays youth to become tomorrows scientists. BRAINYAC provides high-schoolers with an immersive, hands-on summer research experience in a Columbia laboratory.",
+    "url": "https://zuckermaninstitute.columbia.edu/brainyac",
     "field": "Psychology",
     "type": "Program",
     "mode": "In-person",
@@ -210,6 +226,7 @@
   {
     "title": "Hartford Hospital Summer Teen Volunteer Program",
     "description": "The Volunteer Department at The Hospital of Central Connecticut is excited to provide a Summer Experience for high school students 14 years of age.",
+    "url": "https://thocc.org/health-professionals/for-job-seekers/for-volunteers/teen-volunteer-opportunities",
     "field": "Medicine",
     "type": "Program",
     "mode": "In-person",
@@ -223,6 +240,7 @@
   {
     "title": "UB/National Grid Leadership Camp",
     "description": "The UB/National Grid Camp provides an opportunity for students with an aptitude in math and science to learn more about careers in STEM and experience campus life. We are especially interested in students from groups that are underrepresented in STEM professions.",
+    "url": "https://engineering.buffalo.edu/home/outreach/camps/national-grid.html",
     "field": "Science",
     "type": "Program",
     "mode": "In-person",
@@ -236,6 +254,7 @@
   {
     "title": "Tisch Summer High School Program",
     "description": "The Tisch Summer High School Program is tuition-based and culminates in four to six college credits (units). This program includes projects, professional training, and collaboration. The classes are based on the Tisch undergraduate curriculum.",
+    "url": "https://tisch.nyu.edu/special-programs/high-school-programs/tisch-summer-high-school",
     "field": "Arts",
     "type": "Program",
     "mode": "In-person",
@@ -249,6 +268,7 @@
   {
     "title": "Summer Learning Institute (SLI)",
     "description": "The Summer Learning Institute (SLI) uses a three-pronged approach to address the academic, career development, and social and emotional needs of Boston Public School students. SLI students spend over 120 hours engaged in an intensive series of learning opportunities. Freedom House helps students develop a college-going identity through service...",
+    "url": "https://www.freedomhouse.com/programs/summer-learning-institute-sli/",
     "field": "Psychology",
     "type": "Internship",
     "mode": "In-person",
@@ -262,6 +282,7 @@
   {
     "title": "Stanford Cardiothoracic Surgical Skills Summer Internship",
     "description": "The Summer Internship is an intensive course for high school students that will provide knowledge of and exposure to basic and advanced cardiothoracic surgery and technical skills (e.g., knot tying, dissection, suturing, coronary artery bypass graft, and cardiac valve replacement).",
+    "url": "https://med.stanford.edu/cssec/summer-internship.html",
     "field": "Medicine",
     "type": "Program",
     "mode": "In-person",
@@ -275,6 +296,7 @@
   {
     "title": "Stanford Medical Youth Science Program",
     "description": "The Stanford Medical Youth Science Program (SMYSP) is an academic enrichment program for students from low-income, underrepresented backgrounds. Over five weeks, participants engage in faculty lectures, professional development workshops, Stanford Medicine networking events, and a public health disparities research project.",
+    "url": "https://med.stanford.edu/odme/high-school-students/smysp.html",
     "field": "Science",
     "type": "Internship",
     "mode": "In-person",
@@ -288,6 +310,7 @@
   {
     "title": "Inspiring Future Scientists through Shadowing (IFSS)",
     "description": "The Stanford Department of Chemistry hosts the Inspiring Future Scientists Through Shadowing (IFSS) program each summer. This program gives rising juniors and seniors in high school an opportunity to experience cutting-edge chemical research while shadowing a graduate student mentor as they work in the laboratory.",
+    "url": "https://chemistry.stanford.edu/outreach/community-outreach/shadow-program-high-school-students",
     "field": "Science",
     "type": "Program",
     "mode": "In-person",
@@ -301,6 +324,7 @@
   {
     "title": "Simons Summer Research Program",
     "description": "The Simons Summer Research Program gives academically talented, motivated high school students the opportunity to engage in hands-on research in science, math or engineering at Stony Brook University. Simons Fellows work with distinguished faculty mentors, learn laboratory techniques and tools, become part of active research teams, and experience l",
+    "url": "https://www.stonybrook.edu/simons/",
     "field": "Science",
     "type": "Research",
     "mode": "In-person",
@@ -314,6 +338,7 @@
   {
     "title": "UCSC Science Internship Program",
     "description": "The Science Internship Program provides motivated, advanced students with a unique opportunity to work and learn at a premier research institution.\nSIP is a summer-long (10 week) research internship program for high school students in STEM fields.",
+    "url": "https://sip.ucsc.edu/program-details/apply-now/",
     "field": "Science",
     "type": "Internship",
     "mode": "Hybrid",
@@ -326,7 +351,8 @@
   },
   {
     "title": "Queensborough Community College Now STEM Research Academy",
-    "description": "The STEM Research Academy is a two\u00e2\u0080\u0090semester program, consisting of a spring pre\u00e2\u0080\u0090college science course and the opportunity to conduct hands-on research with CUNY faculty members in a summer research experience. The Academy is designed to provide students with an opportunity to build essential literacy and numeracy skills.",
+    "description": "The STEM Research Academy is a twosemester program, consisting of a spring precollege science course and the opportunity to conduct hands-on research with CUNY faculty members in a summer research experience. The Academy is designed to provide students with an opportunity to build essential literacy and numeracy skills.",
+    "url": "https://www.qcc.cuny.edu/collegenow/index.html",
     "field": "Mathematics",
     "type": "Internship",
     "mode": "In-person",
@@ -340,6 +366,7 @@
   {
     "title": "Research Mentorship Program (RMP)",
     "description": "The Research Mentorship Program is a competitive summer program offered by the University of California, Santa Barbara that engages highly accomplished high school students from around the world in hands-on, interdisciplinary university-level research.",
+    "url": "https://www.summer.ucsb.edu/programs/research-mentorship-program/overview",
     "field": "Law",
     "type": "Research",
     "mode": "In-person",
@@ -353,6 +380,7 @@
   {
     "title": "Physics in and Through Cosmology",
     "description": "The QuarkNet Workshop program is an annual workshop for high school physics teachers and students interested in science, technology, engineering, and mathematics (STEM). The workshop is designed to serve as an opportunity to learn about cutting-edge research in particle physics and cosmology, with presentations from scientists and postdocs...",
+    "url": "https://sites.google.com/lbl.gov/quarknet-workshop/home",
     "field": "Science",
     "type": "Program",
     "mode": "Remote",
@@ -366,6 +394,7 @@
   {
     "title": "PUPP Scholars Program",
     "description": "The Princeton University Preparatory Program is a highly engaged, holistic college preparation and success program that fosters development of students who have been historically marginalized. Our multi-year, tuition-free program prepares participants for admission to and success within selective colleges and universities, and beyond.",
+    "url": "https://pupp.princeton.edu/",
     "field": "Writing",
     "type": "Program",
     "mode": "In-person",
@@ -379,6 +408,7 @@
   {
     "title": "Newcomb Summer Session",
     "description": "The Newcomb Summer Session inspires students to address gender inequality by providing discussion-based seminars, workshops, and collaborative projects. The program aims to empower students to become leaders, find their public voice, and tackle real-world issues, ultimately strengthening their college applications.",
+    "url": "https://newcomb.tulane.edu/summersession",
     "field": "Writing",
     "type": "Program",
     "mode": "In-person",
@@ -392,6 +422,7 @@
   {
     "title": "National Summer Transportation Institute",
     "description": "The National Summer Transportation Institute is a free, one-week non-residential program for high school students (rising 9th-12th graders) where they can learn about transportation engineering through awesome hands-on activities and group programs. Minority and underrepresented students are especially encouraged to apply.",
+    "url": "https://engineering.buffalo.edu/home/outreach/camps/nsti.html",
     "field": "Engineering",
     "type": "Program",
     "mode": "In-person",
@@ -405,6 +436,7 @@
   {
     "title": "New York University Collegiate Seminar Program",
     "description": "The NYU Collegiate Seminar Program offers high school juniors the opportunity to experience college-level classes at a top-tier research university. Selected students will participate in one or more two-hour seminar-style classes taught by leading NYU faculty in a variety of academic subjects.",
+    "url": "https://www.nyu.edu/admissions/high-school-and-middle-school-programs/high-school-programs/collegiate-seminar-program.html",
     "field": "Psychology",
     "type": "Program",
     "mode": "In-person",
@@ -418,6 +450,7 @@
   {
     "title": "NINDS Summer Internship Programs",
     "description": "The NINDS Summer Programs offer a unique opportunity for talented high school, undergraduate, graduate, and medical students to receive high-quality training and mentoring in neuroscience research. Summer interns get hands-on experience working with leading scientists in the Institute's Division of Intramural Research.",
+    "url": "https://research.ninds.nih.gov/employment-training/ninds-summer-internship-programs-sip",
     "field": "Medicine",
     "type": "Internship",
     "mode": "In-person",
@@ -430,7 +463,8 @@
   },
   {
     "title": "Lockwood-Mathews Mansion Museum Internship Program",
-    "description": "The Museum maintains a successful internship program for high school and college students throughout Fairfield County. Every year LMMM receives many requests for internships and the Museum\u00e2\u0080\u0099s staff and volunteer educators provide their time, guidance, and training in museum administration and education to help them acquire skills for the future.",
+    "description": "The Museum maintains a successful internship program for high school and college students throughout Fairfield County. Every year LMMM receives many requests for internships and the Museums staff and volunteer educators provide their time, guidance, and training in museum administration and education to help them acquire skills for the future.",
+    "url": "https://www.lockwoodmathewsmansion.com/education-programs-3/high-school-internship-program/",
     "field": "History",
     "type": "Internship",
     "mode": "In-person",
@@ -444,6 +478,7 @@
   {
     "title": "Mercer County Administration Building Student Internship Program",
     "description": "The Mercer County Internship Program is designed to provide students in high school and college with paid opportunities to work and gain practical training and hands-on, real world experience that will help meet their educational goals and prepare them for a professional career.",
+    "url": "https://www.mercercounty.org/departments/personnel/job-opportunities/mercer-county-internship-program",
     "field": "Writing",
     "type": "Internship",
     "mode": "In-person",
@@ -457,6 +492,7 @@
   {
     "title": "MIT Women's Technology Program",
     "description": "The MIT Women's Technology Program (WTP) is a rigorous four-week summer academic experience to introduce high school students to engineering through hands-on classes, labs, and team-based projects in the summer after 11th grade.",
+    "url": "https://web.mit.edu/wtp/",
     "field": "Engineering",
     "type": "Program",
     "mode": "In-person",
@@ -470,6 +506,7 @@
   {
     "title": "Lincoln Laboratory Cipher Program",
     "description": "The Lincoln Laboratory Cipher program is a summer workshop providing an introduction to theoretical cryptography. This summer STEM program is a FREE one-week enrichment class for high-school students who are interested in mathematics or cyber security.",
+    "url": "https://www.ll.mit.edu/outreach/llcipher",
     "field": "Computer Science",
     "type": "Program",
     "mode": "Hybrid",
@@ -483,6 +520,7 @@
   {
     "title": "Princeton Laboratory Learning Program",
     "description": "The Laboratory Learning Program is a full-time, free research experience in the sciences or engineering for high school students. Students are included in ongoing research programs where they are closely supervised by Princeton faculty and research staff.",
+    "url": "https://research.princeton.edu/about-us/internships/laboratory-learning-program",
     "field": "Science",
     "type": "Research",
     "mode": "In-person",
@@ -495,7 +533,8 @@
   },
   {
     "title": "LEAH Knox Data Science and Biomedical Research Summer Internship",
-    "description": "The LEAH Knox Summer Research Internship runs from July 5, 2023 \u00e2\u0080\u0093 August 9, 2023. It is a commitment of 9:30AM \u00e2\u0080\u0093 4:00PM Monday through Friday for those five weeks. Students will learn quantitative methods, data analysis, and coding alongside molecular biology techniques...Youth Leaders can earn up to $2,250 for the summer.",
+    "description": "The LEAH Knox Summer Research Internship runs from July 5, 2023  August 9, 2023. It is a commitment of 9:30AM  4:00PM Monday through Friday for those five weeks. Students will learn quantitative methods, data analysis, and coding alongside molecular biology techniques...Youth Leaders can earn up to $2,250 for the summer.",
+    "url": "https://form.leahknoxscholars.org/lkrp-summer-2023-application/",
     "field": "Science",
     "type": "Internship",
     "mode": "In-person",
@@ -509,6 +548,7 @@
   {
     "title": "College Now STEM Research Academy",
     "description": "The John Jay STEM Academy is designed to provide high school students with an opportunity to develop the essential skills required to be strong scientific thinkers by engaging in authentic inquiry-based and research activities. Selected students will be enrolled in a hands-on-science research course in forensic science - DNA Detectives.",
+    "url": "https://www.jjay.cuny.edu/stem-research-academy",
     "field": "Law",
     "type": "Research",
     "mode": "In-person",
@@ -522,6 +562,7 @@
   {
     "title": "J. Craig Venter Institute Internship Program",
     "description": "The JCVI Summer Internship Program is a highly sought-after opportunity designed to mentor and inspire the next generation of great scientists. While occasionally we do have interns other times during the year, our official program is held during the summer months, and provides motivated high-school (18 and older), undergraduate and graduate studen",
+    "url": "https://www.jcvi.org/careers#internships",
     "field": "Science",
     "type": "Internship",
     "mode": "In-person",
@@ -535,6 +576,7 @@
   {
     "title": "Columbia Engineering Hk Maker Lab",
     "description": "The Hk Maker Lab is an intensive six-week summer program to learn the foundations of design. Focusing on addressing a health problem, participants will design, prototype and test a biomedical device and develop an associated business plan. The program will culminate in a presentation to leading executives from the biomedical community.",
+    "url": "https://www.hypothekids.org/hk-maker-lab",
     "field": "Business",
     "type": "Research",
     "mode": "In-person",
@@ -548,6 +590,7 @@
   {
     "title": "The Metropolitan Museum of Art High School Internship",
     "description": "The High School Internship Program allows you to connect one-on-one and in small cohorts with Museum professionals in a number of related fields, including editorial, marketing, social media, education, and more. You have the chance to find the intersection of your interests as you gain insights from peers and professionals.",
+    "url": "https://www.metmuseum.org/about-the-met/internships/high-school/summer-high-school-internships",
     "field": "Arts",
     "type": "Internship",
     "mode": "In-person",
@@ -561,6 +604,7 @@
   {
     "title": "The Governor's School of New Jersey in Engineering & Technology Program",
     "description": "The Governor's School of New Jersey was established in 1983. It is a tuition-free, summer, residential program for high-achieving high school juniors who have an interest in STEM (science, technology, engineering, and mathematics) subjects. Currently, there are two programs: the Governor's School in the Sciences at Drew University and the Governor'",
+    "url": "https://soe.rutgers.edu/academics/pre-college-engineering-programs/new-jersey-governors-school-engineering-and-technology",
     "field": "Engineering",
     "type": "Program",
     "mode": "In-person",
@@ -574,6 +618,7 @@
   {
     "title": "Group Summer Scholars Research Program",
     "description": "The GSSRP is a hands on research experience aimed at attracting and developing talented students who are interested in pursuing an education in a STEM field. Participants work alongside faculty and staff on cutting-edge research projects in Scientific Visualization, Cancer Biology, Machine Learning, Developmental Biology and Modern Drug Discovery",
+    "url": "https://www.kean.edu/academics/dorothy-and-george-hennings-college-science-mathematics-and-technology/school-1",
     "field": "Science",
     "type": "Research",
     "mode": "In-person",
@@ -587,6 +632,7 @@
   {
     "title": "Frontiers of Science Institute",
     "description": "The Frontier of Science Institute (FSI) at the University of Northern Colorado (UNC) reaches beyond the high school curriculum by introducing new scientific concepts during a six-week summer program that includes hands-on research experiences, field trips, industrial visits, and seminars.",
+    "url": "https://www.unco.edu/nhs/mathematics-science-teaching-institute/program-areas/frontiers-science-institute/",
     "field": "Science",
     "type": "Program",
     "mode": "In-person",
@@ -600,6 +646,7 @@
   {
     "title": "ECI Fellowship",
     "description": "The ECI fellowship is a free education and action-based course for youth ages 12-18 in North, South or Central America. Fellows will learn about intersectional environmentalism and leadership, using this education to develop their own independent initiative.",
+    "url": "https://www.ecocircleinternational.org/fellowship",
     "field": "Environment",
     "type": "Program",
     "mode": "In-person",
@@ -613,6 +660,7 @@
   {
     "title": "DiscoveryCube in OC & LA Teen Volunteer",
     "description": "The Discovery Cube offers a Teen Volunteer Program in both Orange County and Los Angeles for high school students interested in STEM fields. Participants will have the opportunity to gain hands-on experience, develop leadership skills, and engage with the museum's visitors through interactive exhibits and educational programs.",
+    "url": "https://www.discoverycube.org/volunteer/",
     "field": "Science",
     "type": "Program",
     "mode": "In-person",
@@ -626,6 +674,7 @@
   {
     "title": "Data Science Institute Summer Lab",
     "description": "The Data Science Institute Summer Lab program (launched in 2018 as the Data & Computing Summer Lab) is an immersive 10-week paid summer research program at the University of Chicago. In the program, high school and undergraduate students are paired with a data science mentor in various domains, including: computer science, data science, and more.",
+    "url": "https://datascience.uchicago.edu/education/summerlab/#program-overview",
     "field": "Law",
     "type": "Research",
     "mode": "In-person",
@@ -639,6 +688,7 @@
   {
     "title": "DIVRO Summer Internship Program",
     "description": "The DIVRO program offers hands-on training and mentoring in vision research for students from diverse backgrounds who have traditionally been underrepresented in research.",
+    "url": "https://www.nei.nih.gov/grants-and-training/training-nei/internships-and-student-programs/divro-summer-internship-program",
     "field": "Medicine",
     "type": "Internship",
     "mode": "In-person",
@@ -652,6 +702,7 @@
   {
     "title": "Coriell Summer Experience for Students",
     "description": "The Coriell Summer Experience for Students is an opportunity for high school and college students to work alongside world-renowned scientists and researchers and gain insights into careers in science or related areas.",
+    "url": "https://www.coriell.org/1/About-Us/Education/Summer-Experience",
     "field": "Medicine",
     "type": "Research",
     "mode": "In-person",
@@ -665,6 +716,7 @@
   {
     "title": "Harvard CURE program",
     "description": "The Continuing Umbrella of Research Experiences (CURE) program introduces Massachusetts high school and college students from underrepresented populations to the world of cancer research by placing them in real research settings at local cancer research institutions.",
+    "url": "https://www.dfhcc.harvard.edu/research/cancer-disparities/students/cure-overview/",
     "field": "Medicine",
     "type": "Program",
     "mode": "In-person",
@@ -678,6 +730,7 @@
   {
     "title": "Yale Summer Session",
     "description": "The College Now STEM Research Academy at Lehman College is a two-part program designed to provide students with an opportunity to develop the essential skills to be strong scientific thinkers by engaging in authentic enquiry based research activities.",
+    "url": "https://www.studentresearchnyc.org/our_programs/cuny-college-now-lehman-college-stem-research-academy/",
     "field": "Mathematics",
     "type": "Internship",
     "mode": "In-person",
@@ -691,6 +744,7 @@
   {
     "title": "The City and County of San Francisco High School Internships",
     "description": "The City and County of San Francisco offers various internships and summer programs for high school students through several departments and programs (Airport, City Attorney, Department of Children, Youth and Their Families, Department of Elections, Opportunities for All [San Francisco Students Only], and Public Works)",
+    "url": "https://sf.gov/apply-internship-project-pull",
     "field": "Business",
     "type": "Internship",
     "mode": "Hybrid",
@@ -703,7 +757,8 @@
   },
   {
     "title": "Berkeley Lab K-12 - Director's Apprenticeship Program",
-    "description": "The Berkeley Lab Director's Apprenticeship Program (BLDAP) is a high school STEM (Science Technology Engineering Mathematics) program designed to help students develop 21st century skills, learn about Berkeley Lab\u00e2\u0080\u0099s research activities, receive college and career guidance, and develop a STEM network in a real-life work environment.",
+    "description": "The Berkeley Lab Director's Apprenticeship Program (BLDAP) is a high school STEM (Science Technology Engineering Mathematics) program designed to help students develop 21st century skills, learn about Berkeley Labs research activities, receive college and career guidance, and develop a STEM network in a real-life work environment.",
+    "url": "https://k12education.lbl.gov/programs/high-school/BLDAP",
     "field": "Science",
     "type": "Program",
     "mode": "In-person",
@@ -717,6 +772,7 @@
   {
     "title": "Awesome Math Summer Program",
     "description": "The AwesomeMath Summer Program is an intensive three-week online program for gifted students from around the globe. It is designed for bright middle and high school students who wish to sharpen their problem-solving skills and further their mathematics education.",
+    "url": "https://www.awesomemath.org/summer-program/overview/program-information/",
     "field": "Mathematics",
     "type": "Program",
     "mode": "Remote",
@@ -730,6 +786,7 @@
   {
     "title": "Anson L. Clark Scholars Program",
     "description": "The Anson L. Clark Scholar Program is an intensive seven-week summer research program for twelve highly qualified high school juniors and seniors.",
+    "url": "https://www.depts.ttu.edu/honors/academicsandenrichment/affiliatedandhighschool/clarks/",
     "field": "Science",
     "type": "Research",
     "mode": "In-person",
@@ -743,6 +800,7 @@
   {
     "title": "Air Force Research Laboratory (AFRL) Scholars Program",
     "description": "The Air Force Research Laboratory (AFRL) Scholars Program offers stipend-paid internship opportunities for undergraduate and graduate-level university students pursuing STEM degrees, as well as upper-level high school students.",
+    "url": "https://afrlscholars.usra.edu/scholarsprogram/eligibility/",
     "field": "Science",
     "type": "Internship",
     "mode": "In-person",
@@ -756,6 +814,7 @@
   {
     "title": "AgriTREK/SciTREK and AgDiscovery Summer Programs for High School Students",
     "description": "The AgriTREK/SciTREK Summer Institute and AgDiscovery Summer Program are two-week residential programs that create an awareness of the educational opportunities that are available in Science, Technology, Engineering, Agriculture and Mathematics (STEAM) and related areas through hands-on research, leadership development and activities.",
+    "url": "https://www.tuskegee.edu/programs-courses/colleges-schools/caens/conferences-workshops/agritrekscitrek",
     "field": "Science",
     "type": "Program",
     "mode": "In-person",
@@ -769,6 +828,7 @@
   {
     "title": "High School Apprenticeships",
     "description": "The AEOP High School Apprenticeship. Spend your summer in a university research lab or in one of the U.S. Army Research Laboratories and Centers through this unique apprenticeship opportunity. You will experience firsthand the innovation and research that is driving the future of our country.",
+    "url": "https://www.usaeop.com/program/high-school-apprenticeships/",
     "field": "Science",
     "type": "Program",
     "mode": "In-person",
@@ -782,6 +842,7 @@
   {
     "title": "The Knowledge Society",
     "description": "TKS is a 10-month accelerator program from September 2023 to June 2024. During the program, students attend weekly 3-hour sessions with their cohort. Each cohort has ~40 students and a full-time Program Director and Associate Director that are dedicated to coaching and guiding students.",
+    "url": "https://www.tks.world/",
     "field": "Computer Science",
     "type": "Program",
     "mode": "Hybrid",
@@ -795,6 +856,7 @@
   {
     "title": "MIT THINK Scholars Program",
     "description": "THINK project proposals are science, technology, and engineering ideas that span many fields, from green technologies and practical devices to software applications. As long as it can be completed in one semester with a $1,000 budget, almost anything is fair game! A good proposal has an insightful idea, clearly defined goals...",
+    "url": "https://think.mit.edu/",
     "field": "Science",
     "type": "Program",
     "mode": "Remote",
@@ -808,6 +870,7 @@
   {
     "title": "Summer High School Intensive in Next-Generation Engineering (SHINE)",
     "description": "Students can join a USC Viterbi professor's research team for seven weeks to discover how engineering addresses our real world problems in various fields including biomedicine, robotics, aerospace and more.",
+    "url": "https://viterbik12.usc.edu/shine/",
     "field": "Engineering",
     "type": "Research",
     "mode": "In-person",
@@ -821,6 +884,7 @@
   {
     "title": "Student 5.0 for High School Seniors",
     "description": "Student 5.0 is now enrolling seniors attending public high school in the Greater Hartford/East Hartford and New Britain/Bristol areas. Students will receive personal finance and college training and be matched with an internship in their field of interest.",
+    "url": "https://readyct.org/student-5-0-2/",
     "field": "Business",
     "type": "Program",
     "mode": "Hybrid",
@@ -834,6 +898,7 @@
   {
     "title": "Ladder Internship Program",
     "description": "Startup internships for ambitious high school students",
+    "url": "https://www.ladderinternships.com/",
     "field": "Business",
     "type": "Internship",
     "mode": "Remote",
@@ -846,7 +911,8 @@
   },
   {
     "title": "Direct Connect High School Internship Program",
-    "description": "StandOut Connect is a program backed by The University of Chicago\u00e2\u0080\u0099s Polsky Center for Innovation that matches high school students with internships. Most high school students find internships through personal connections, but not everyone has a family friend in a field that interests them.",
+    "description": "StandOut Connect is a program backed by The University of Chicagos Polsky Center for Innovation that matches high school students with internships. Most high school students find internships through personal connections, but not everyone has a family friend in a field that interests them.",
+    "url": "https://www.standoutconnect.org/",
     "field": "Science",
     "type": "Internship",
     "mode": "Hybrid",
@@ -859,7 +925,8 @@
   },
   {
     "title": "Temple of Understanding Internship",
-    "description": "Since 2005, the Temple of Understanding has implemented its commitment to the education of young people by hosting a Summer Internship. TOU\u00e2\u0080\u0099s student interns attend some open meetings of the UN Security Council, the General Assembly, and various committees.",
+    "description": "Since 2005, the Temple of Understanding has implemented its commitment to the education of young people by hosting a Summer Internship. TOUs student interns attend some open meetings of the UN Security Council, the General Assembly, and various committees.",
+    "url": "https://templeofunderstanding.org/internship-programs/",
     "field": "Politics",
     "type": "Internship",
     "mode": "In-person",
@@ -873,6 +940,7 @@
   {
     "title": "Scripps Health Volunteer Program",
     "description": "Scripps has volunteers as young as 15 and many who are more than 80 years old, donating their time to welcome guests, create crafts for patients, escort their furry friends through the canine therapy program, work in the gift shop and so much more,often working side-by-side with our employees and physicians.",
+    "url": "https://careers.scripps.org/graduates-and-students/",
     "field": "Medicine",
     "type": "Program",
     "mode": "In-person",
@@ -886,6 +954,7 @@
   {
     "title": "Stanford University Mathematics Camp (SUMaC)",
     "description": "SUMaC leads participants on a journey in advanced mathematics through lectures, guided research, and group problem solving. In an environment centered on mathematics, participants explore current lines of mathematical research, the historical development of important areas of mathematics, and applications across scientific disciplines.",
+    "url": "https://sumac.spcs.stanford.edu/",
     "field": "Mathematics",
     "type": "Program",
     "mode": "Hybrid",
@@ -899,6 +968,7 @@
   {
     "title": "Rockefeller Summer Science Research Program",
     "description": "SSRP scholars will have the opportunity to design and conduct their own research project as part of a themed research track. Each research track is modeled after a Rockefeller research topic and/or technique, and includes a team of scientist mentors from the Rockefeller community.",
+    "url": "https://www.rockefeller.edu/outreach/ssrp/",
     "field": "Medicine",
     "type": "Research",
     "mode": "In-person",
@@ -912,6 +982,7 @@
   {
     "title": "SRTI Student Research Internship Program",
     "description": "SRTI offers a Student Research Internship Program for highly motivated high school, undergraduate, graduate and professional students. Interns will work with and learn from a multi-disciplinary team of scientists, who include internationally-renowned investigators in the areas of genomics, bioinformatics, digital medicine, and community engagement.",
+    "url": "https://www.scripps.edu/science-and-medicine/translational-institute/education-and-training/student-research-internship/",
     "field": "Medicine",
     "type": "Internship",
     "mode": "In-person",
@@ -925,6 +996,7 @@
   {
     "title": "Research Institute at MIT",
     "description": "RSI scholars first participate in a week of intensive STEM classes with accomplished professors. The heart of RSI is the five week research internship where students conduct individual projects under the tutelage of mentors who are experienced scientists and researchers. During the final week of RSI, students prepare written and oral presentations",
+    "url": "https://www.cee.org/programs/research-science-institute",
     "field": "Science",
     "type": "Research",
     "mode": "In-person",
@@ -938,6 +1010,7 @@
   {
     "title": "Columbia University Summer Immersion",
     "description": "Program at Columbia University in New York City for rising freshmen through seniors to choose a course to examine in depth over a three-week time period, and to experience other facets of the college lifestyle.",
+    "url": "https://precollege.sps.columbia.edu/highschool/summer-immersion-new-york-city",
     "field": "Science",
     "type": "Program",
     "mode": "In-person",
@@ -951,6 +1024,7 @@
   {
     "title": "UC Davis Young Scholars Program",
     "description": "Participants work one-on-one with researchers in state-of-the-art UC Davis laboratories on an individual project. Each participant will prepare a journal quality paper and a symposium presentation about their work.",
+    "url": "https://education.ucdavis.edu/young-scholars-program",
     "field": "Science",
     "type": "Research",
     "mode": "In-person",
@@ -964,6 +1038,7 @@
   {
     "title": "Perry Research Scholars Institute",
     "description": "PRSI is an introductory-level, research-preparatory program that grants you behind-the-scenes access to the ways and places we discover new knowledge on many different topics.",
+    "url": "https://belinblank.education.uiowa.edu/students/prsi/#about",
     "field": "Science",
     "type": "Research",
     "mode": "In-person",
@@ -977,6 +1052,7 @@
   {
     "title": "PROMYS Program in Mathematics for Young Scientists",
     "description": "PROMYS is a 6-week summer program in mathematics for strongly motivated high school students from across the U.S. and around the world.",
+    "url": "https://promys.org/",
     "field": "Mathematics",
     "type": "Program",
     "mode": "In-person",
@@ -990,6 +1066,7 @@
   {
     "title": "PPPL High School Summer Internship",
     "description": "PPPL's Science Education department offers a limited number of internship positions for outstanding high school seniors for the summer after their graduation. Each term, which lasts about 8 to 10 weeks during the summer, offers students the chance to work on a project with a member of our research or engineering staff.",
+    "url": "https://www.pppl.gov/high-school-summer-internship",
     "field": "Science",
     "type": "Internship",
     "mode": "In-person",
@@ -1002,7 +1079,8 @@
   },
   {
     "title": "Congressman Cory Booker Internship",
-    "description": "Our office offers a limited number of fall, spring, and summer internships for high school and college students, as well as recent college graduates. Internships are in Senator Booker\u00e2\u0080\u0099s Washington, D.C., Newark, New Jersey, and Camden, New Jersey offices and provide an excellent way to learn first-hand how Congress works.",
+    "description": "Our office offers a limited number of fall, spring, and summer internships for high school and college students, as well as recent college graduates. Internships are in Senator Bookers Washington, D.C., Newark, New Jersey, and Camden, New Jersey offices and provide an excellent way to learn first-hand how Congress works.",
+    "url": "https://www.booker.senate.gov/services/internships",
     "field": "Politics",
     "type": "Internship",
     "mode": "In-person",
@@ -1015,7 +1093,8 @@
   },
   {
     "title": "Sandia National Laboratories Student Intern Program",
-    "description": "National security is our business. We apply science to help detect, repel, defeat, or mitigate threats. Sandia welcomes student interns \u00e2\u0080\u0093 from those in their final years of high school, to undergraduates, to researchers obtaining PhDs. As an intern, you will work on real-world, challenging projects that contribute to Sandia\u00e2\u0080\u0099s mission.",
+    "description": "National security is our business. We apply science to help detect, repel, defeat, or mitigate threats. Sandia welcomes student interns  from those in their final years of high school, to undergraduates, to researchers obtaining PhDs. As an intern, you will work on real-world, challenging projects that contribute to Sandias mission.",
+    "url": "https://hr.sandia.gov/career/student-interns/",
     "field": "Science",
     "type": "Internship",
     "mode": "In-person",
@@ -1029,6 +1108,7 @@
   {
     "title": "NYU Precollege",
     "description": "NYU Precollege offers highschoolers the opportunity to experience life as an NYU student, earn college credits toward a future degree, and immerse themselves in the dynamic, global community that is New York University.",
+    "url": "https://www.nyu.edu/admissions/high-school-and-middle-school-programs/high-school-programs/nyu-precollege.html",
     "field": "Psychology",
     "type": "Program",
     "mode": "In-person",
@@ -1042,6 +1122,7 @@
   {
     "title": "NASA Pathways Internship",
     "description": "NASA Office of STEM Engagement (OSTEM) paid internships allow high school and college-level students to contribute to agency projects under the guidance of a NASA mentor.",
+    "url": "https://www.nasa.gov/careers/pathways",
     "field": "Science",
     "type": "Internship",
     "mode": "Remote",
@@ -1054,7 +1135,8 @@
   },
   {
     "title": "MITES",
-    "description": "MITES Summer (formerly MITES) is a six-week, on-campus program that immerses students from across the country in life at MIT. You\u00e2\u0080\u0099ll take five rigorous, rewarding math, science, and humanities courses\u00e2\u0080\u0094and discover all you can achieve. You\u00e2\u0080\u0099ll also participate in lab tours and social events, and benefit from college admissions counseling.",
+    "description": "MITES Summer (formerly MITES) is a six-week, on-campus program that immerses students from across the country in life at MIT. Youll take five rigorous, rewarding math, science, and humanities coursesand discover all you can achieve. Youll also participate in lab tours and social events, and benefit from college admissions counseling.",
+    "url": "https://mites.mit.edu/",
     "field": "Engineering",
     "type": "Program",
     "mode": "In-person",
@@ -1068,6 +1150,7 @@
   {
     "title": "Leadership Seminars",
     "description": "Leadership Seminars is a competitive, 10-day program on Notre Dame's campus for academically talented students who show impressive leadership within their communities. Approximately 100 students are admitted to Leadership Seminars each year, and students are eligible to receive one transferable college credit upon completion of the program.",
+    "url": "https://precollege.nd.edu/leadership-seminars/",
     "field": "Arts",
     "type": "Program",
     "mode": "In-person",
@@ -1081,6 +1164,7 @@
   {
     "title": "MIT LaunchX Summer Program",
     "description": "LaunchX high school entrepreneurship summer program brings together young entrepreneurs with the resources and network to unleash their entrepreneurial spirit and start real companies.",
+    "url": "https://launchx.com/",
     "field": "Business",
     "type": "Program",
     "mode": "Hybrid",
@@ -1094,6 +1178,7 @@
   {
     "title": "Ladders for Leaders",
     "description": "Ladders for Leaders is a nationally recognized program that offers outstanding high school and college students the opportunity to participate in paid professional summer internships with leading corporations, non-profit organizations and government agencies in New York City.",
+    "url": "https://www.nyc.gov/site/dycd/services/jobs-internships/about-nyc-ladders-for-leaders.page",
     "field": "Business",
     "type": "Internship",
     "mode": "In-person",
@@ -1106,7 +1191,8 @@
   },
   {
     "title": "SCA Youth Programs",
-    "description": "Join an SCA Crew and plug yourself into SCA\u00e2\u0080\u0099s nationwide network of young conservationists \u00e2\u0080\u0093 thousands of students who are as passionate as you are about preserving wildlands, protecting nature in urban areas, and keeping the planet green.",
+    "description": "Join an SCA Crew and plug yourself into SCAs nationwide network of young conservationists  thousands of students who are as passionate as you are about preserving wildlands, protecting nature in urban areas, and keeping the planet green.",
+    "url": "http://thesca.org/serve/our-programs/youth-programs/",
     "field": "Environment",
     "type": "Program",
     "mode": "In-person",
@@ -1120,6 +1206,7 @@
   {
     "title": "Jerome Home Student Internship",
     "description": "Jerome Home and Arbor Rose welcome high school students at least 16 years old and college students who are seeking opportunities to learn and grow in the health care field. Focus areas of service include undergraduate students in human services, social work, recreation therapy and music therapy.",
+    "url": "https://www.jeromehome.com/join-our-team/student-internship/",
     "field": "Medicine",
     "type": "Internship",
     "mode": "In-person",
@@ -1133,6 +1220,7 @@
   {
     "title": "Operation Catapult",
     "description": "It's an exciting summer camp experience full of science, engineering and math awesomeness, with STEM opportunities that allow high school juniors or seniors reach into robotics, or do cool things like brew biodiesel or make a machine from scratch.",
+    "url": "https://www.rose-hulman.edu/admissions-and-aid/early-planning/operation-catapult/index.html",
     "field": "Science",
     "type": "Program",
     "mode": "In-person",
@@ -1146,6 +1234,7 @@
   {
     "title": "Congressman Chris Smith Internship",
     "description": "Interns in my office perform public service assisting constituents of New Jersey's 4th Congressional District. As part of the pursuit of educational objectives, an internship in my office can provide hands-on experience in administrative and legislative support, as well as insight into the workings of the federal government.",
+    "url": "https://chrissmith.house.gov/constituentservices/internships.htm",
     "field": "Politics",
     "type": "Internship",
     "mode": "In-person",
@@ -1159,6 +1248,7 @@
   {
     "title": "Teen Night Planning Committee",
     "description": "In this paid internship, New York City teens create teen-led community programming grounded in art and activism, and collaboratively dream up programs, organize activities, and promote youth artists who are changing the world.",
+    "url": "https://www.brooklynmuseum.org/education/teens/teen_planning",
     "field": "Writing",
     "type": "Internship",
     "mode": "In-person",
@@ -1172,6 +1262,7 @@
   {
     "title": "Girls Who Code 6-Week Self-Paced Program",
     "description": "In the Self-Paced Program, high school students can explore web development in HTML, CSS, JavaScript, or more intermediate applications of Python with a focus on cybersecurity or our new data science courses!",
+    "url": "https://girlswhocode.com/programs/summer-immersion-program",
     "field": "Computer Science",
     "type": "Program",
     "mode": "Remote",
@@ -1185,6 +1276,7 @@
   {
     "title": "Girls Who Code 2-Week Immersion",
     "description": "In the 2-week Summer Immersion Program (SIP), high school students attend live, virtual classes sponsored by industry-leading companies like MetLife, Bank of America, and Accenture.",
+    "url": "https://girlswhocode.com/programs/summer-immersion-program",
     "field": "Computer Science",
     "type": "Program",
     "mode": "Remote",
@@ -1198,6 +1290,7 @@
   {
     "title": "Medill Cherubs",
     "description": "In our prestigious program for high school students, the Medill-Northwestern Journalism Institute (MNJI). This five-week summer institute, also known as the cherub program, is for rising seniors seeking the inside scoop on professional journalism and looking to connect with peers who are just as",
+    "url": "https://www.medill.northwestern.edu/journalism/high-school-programs/medill-cherubs.html",
     "field": "Writing",
     "type": "Program",
     "mode": "In-person",
@@ -1210,7 +1303,8 @@
   },
   {
     "title": "Research in Science & Engineering (RISE) program",
-    "description": "If you\u00e2\u0080\u0099re passionate about the sciences and are a domestic student currently in your junior year of high school, we invite you to apply for the Research in Science & Engineering (RISE) program.",
+    "description": "If youre passionate about the sciences and are a domestic student currently in your junior year of high school, we invite you to apply for the Research in Science & Engineering (RISE) program.",
+    "url": "https://www.bu.edu/summer/high-school-programs/rise-internship-practicum/",
     "field": "Science",
     "type": "Research",
     "mode": "In-person",
@@ -1224,6 +1318,7 @@
   {
     "title": "IOL HighTech Bound",
     "description": "HighTech Bound is a paid four to six-week summer internship program for high school students entering their senior year. The program provides an exciting opportunity for ambitious students, like you, to experience network technologies in a real world environment.",
+    "url": "https://www.iol.unh.edu/stem/hightech-bound",
     "field": "Computer Science",
     "type": "Internship",
     "mode": "In-person",
@@ -1237,6 +1332,7 @@
   {
     "title": "VSA Playwright Discovery Program",
     "description": "High school students with disabilities are invited to explore the art of writing for performance through the VSA Playwright Discovery Program",
+    "url": "https://www.kennedy-center.org/education/opportunities-for-artists/competitions-and-commissions/vsa-playwright-discovery/",
     "field": "Arts",
     "type": "Program",
     "mode": "In-person",
@@ -1249,7 +1345,8 @@
   },
   {
     "title": "Secondary School Program",
-    "description": "Harvard Summer School\u00e2\u0080\u0099s Secondary School program is a seven-week academic program for motivated high school students ready to excel in college courses for college credit.",
+    "description": "Harvard Summer Schools Secondary School program is a seven-week academic program for motivated high school students ready to excel in college courses for college credit.",
+    "url": "https://summer.harvard.edu/high-school-programs/secondary-school-program/#outcomes",
     "field": "Science",
     "type": "Program",
     "mode": "Hybrid",
@@ -1263,6 +1360,7 @@
   {
     "title": "Google Summer of Code",
     "description": "Google Summer of Code is a global, online program focused on bringing new contributors into open source software development. GSoC Contributors work with an open source organization on a 12+ week programming project under the guidance of mentors.",
+    "url": "https://summerofcode.withgoogle.com/",
     "field": "Computer Science",
     "type": "Program",
     "mode": "Remote",
@@ -1276,6 +1374,7 @@
   {
     "title": "The Office of Undergraduate Research (OUR) Research Education Program (REP)",
     "description": "Gain an enhanced understanding of the research cycle and processes involved, as well as research paradigms and methodologies in different academic disciplines.\nActively collaborate with undergraduate researchers from diverse academic disciplines. Develop transferable research skills, including active reading and digital information literacy.",
+    "url": "https://www.unlv.edu/our/funding/rep",
     "field": "Business",
     "type": "Research",
     "mode": "Hybrid",
@@ -1289,6 +1388,7 @@
   {
     "title": "GSTEM at NYU",
     "description": "GSTEM is a six-week summer program for high school students with an interest in pursuing academic and career paths in STEM. Students are paired with a STEM professor or researcher and work on individual projects in a field of their choosing. In addition to earning first-hand research experience",
+    "url": "https://www.nyu.edu/admissions/high-school-and-middle-school-programs/high-school-programs/gstem.html",
     "field": "Science",
     "type": "Program",
     "mode": "In-person",

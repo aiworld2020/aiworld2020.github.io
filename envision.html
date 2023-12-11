@@ -126,7 +126,7 @@
     <!-- ======= Featured Services Section ======= -->
    
         
-        <div class="container mt-5">
+        <div class="container">
             
             <div id="internshipsList" class="row mt-3"></div>
         </div>
@@ -198,33 +198,42 @@
                     internshipCard.className = 'col-12 mb-4';
 
                     var cardContent = `
-                        <div class="card">
+                        <div class="card shadow border-0">
                             <div class="card-body text-left">
                                 <h5 class="card-title text-left" >
                                     <a href="${internship.url}" target="_blank">${internship.title}</a>
                                 </h5>
                                 <p class="card-text text-left">${internship.description}</p>
-                                <div class="row">
-                                    <div class="col-4">
-                                        <ul class="list-group">
-                                            <li class="list-group-item"><strong>Field:</strong> ${internship.field}</li>
-                                            <li class="list-group-item"><strong>Type:</strong> ${internship.type}</li>
-                                            <li class="list-group-item"><strong>Mode:</strong> ${internship.mode}</li>
-                                        </ul>
+                                <div class="row mb-3">
+                                    <div class="col-2">
+                                        <button type="button" class="btn btn-outline-secondary btn-sm">${internship.field}</button>
                                     </div>
-                                    <div class="col-4">
-                                        <ul class="list-group">
-                                            <li class="list-group-item"><strong>Location:</strong> ${internship.location}</li>
-                                            <li class="list-group-item"><strong>Season:</strong> ${internship.season}</li>
-                                            <li class="list-group-item"><strong>Grade:</strong> ${internship.grade}</li>
-                                        </ul>
+                                    <div class="col-2">
+                                        <button type="button" class="btn btn-outline-secondary btn-sm">${internship.type}</button>
                                     </div>
-                                    <div class="col-4">
-                                        <ul class="list-group">
-                                            <li class="list-group-item"><strong>Organization:</strong> ${internship.organization}</li>
-                                            <li class="list-group-item"><strong>Selectivity:</strong> ${internship.selectivity}</li>
-                                            <li class="list-group-item"><strong>Cost:</strong> ${internship.cost}</li>
-                                        </ul>
+                                    <div class="col-2">
+                                        <button type="button" class="btn btn-outline-secondary btn-sm">${internship.mode}</button>
+                                    </div>
+                                    <div class="col-3">
+                                        <button type="button" class="btn btn-outline-secondary btn-sm">${internship.location}</button>
+                                    </div>
+                                    <div class="col-3">
+                                        <button type="button" class="btn btn-outline-secondary btn-sm">${internship.season}</button>
+                                    </div>
+                                     
+                                </div>
+                                <div class = "row">
+                                    <div class="col-3">
+                                        <button type="button" class="btn btn-outline-secondary btn-sm">${internship.grade}</button>
+                                    </div>
+                                    <div class="col-3">
+                                        <button type="button" class="btn btn-outline-secondary btn-sm">${internship.organization}</button>
+                                    </div>
+                                    <div class="col-3">
+                                        <button type="button" class="btn btn-outline-secondary btn-sm">${internship.selectivity}</button>
+                                    </div>
+                                    <div class="col-3">
+                                        <button type="button" class="btn btn-outline-secondary btn-sm">${internship.cost}</button>
                                     </div>
                                 </div>
                             </div>

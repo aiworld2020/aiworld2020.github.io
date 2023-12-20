@@ -51,6 +51,37 @@ for event_element in event_elements:
     }
     event_details["title"] = event_details["title"].encode('ascii', 'ignore').decode('utf-8')
     event_details["description"] = event_details["description"].encode('ascii', 'ignore').decode('utf-8')
+    
+    # Create a 'tags' array and append selected fields
+    event_details['tags'] = [
+        event_details['field'],
+        event_details['type'],
+        event_details['mode'],
+        event_details['location'],
+        event_details['season'],
+        event_details['grade'],
+        event_details['organization'],
+        event_details['selectivity'],
+        event_details['cost']
+        
+        
+        # Add more fields if needed
+    ]
+    
+    # Remove the individual fields from the dictionary
+    del event_details['field'],
+    del event_details['type'],
+    del event_details['mode'],
+    del event_details['location'],
+    del event_details['season'],
+    del event_details['grade']
+    del event_details['organization']
+    del event_details['selectivity']
+    del event_details['cost']
+    
+    
+    
+    
     events_list.append(event_details)
 
 # Convert the list of events to a JSON string

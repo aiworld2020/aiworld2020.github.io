@@ -192,6 +192,19 @@
                     return;
                 }
 
+                // Sort the jsonData array based on the 'title' field
+                jsonData.sort((a, b) => {
+                    const titleA = a.title.toUpperCase(); // Convert titles to uppercase for case-insensitive comparison
+                    const titleB = b.title.toUpperCase();
+                    if (titleA < titleB) {
+                        return -1;
+                    }
+                    if (titleA > titleB) {
+                        return 1;
+                    }
+                    return 0;
+                });
+                
                 // Loop through JSON data and create HTML elements
                 jsonData.forEach(function(internship) {
                     var internshipCard = document.createElement('div');
@@ -204,38 +217,26 @@
                                     <a href="${internship.url}" target="_blank">${internship.title}</a>
                                 </h5>
                                 <p class="card-text text-left">${internship.description}</p>
-                                <div class="row mb-3">
+                                    <div class="row mb-3">
+                        ${internship.tags && internship.tags.length > 0 ? `
+                            <div class="row mb-3">
+                                ${internship.tags.slice(0, 5).map(tag => `
                                     <div class="col-2">
-                                        <button type="button" class="btn btn-outline-secondary btn-sm">${internship.field}</button>
+                                        <button type="button" class="btn btn-outline-secondary btn-sm">${tag}</button>
                                     </div>
-                                    <div class="col-2">
-                                        <button type="button" class="btn btn-outline-secondary btn-sm">${internship.type}</button>
-                                    </div>
-                                    <div class="col-2">
-                                        <button type="button" class="btn btn-outline-secondary btn-sm">${internship.mode}</button>
-                                    </div>
+                                `).join('')}
+                            </div>`
+                            : ''}
+                        ${internship.tags && internship.tags.length > 5 ? `
+                            <div class="row mb-3">
+                                ${internship.tags.slice(5).map(tag => `
                                     <div class="col-3">
-                                        <button type="button" class="btn btn-outline-secondary btn-sm">${internship.location}</button>
+                                        <button type="button" class="btn btn-outline-secondary btn-sm">${tag}</button>
                                     </div>
-                                    <div class="col-3">
-                                        <button type="button" class="btn btn-outline-secondary btn-sm">${internship.season}</button>
-                                    </div>
-                                     
-                                </div>
-                                <div class = "row">
-                                    <div class="col-3">
-                                        <button type="button" class="btn btn-outline-secondary btn-sm">${internship.grade}</button>
-                                    </div>
-                                    <div class="col-3">
-                                        <button type="button" class="btn btn-outline-secondary btn-sm">${internship.organization}</button>
-                                    </div>
-                                    <div class="col-3">
-                                        <button type="button" class="btn btn-outline-secondary btn-sm">${internship.selectivity}</button>
-                                    </div>
-                                    <div class="col-3">
-                                        <button type="button" class="btn btn-outline-secondary btn-sm">${internship.cost}</button>
-                                    </div>
-                                </div>
+                                `).join('')}
+                            </div>`
+                            : ''}
+                    </div>
                             </div>
                         </div>
                         `;

@@ -3801,42 +3801,7 @@
             "STEM"
         ]
     },
-    {
-        "id": 987,
-        "title": "120 Hours Architecture Competition",
-        "description": "120 HOURS is an independent competition organized on a non-profit, voluntary basis without the involvement of a school administration. 120 aims to give students a voice in the current architectural discourse. It is challenging and fun to participate in, and gives students a relevant first encounter with architectural competitions. In short, we want to give deserving young talents a head start at the game.",
-        "url": "https://www.120hours.no/competition",
-        "tags": [
-            "All Grades",
-            "Architecture",
-            "Competition",
-            "Virtual"
-        ],
-        "tagsBucket": [
-            "Competition",
-            "Architecture",
-            "Virtual",
-            "All Grades"
-        ]
-    },
-    {
-        "id": 988,
-        "title": "Academic WorldQuest",
-        "description": "The World Affairs Councils of America’s flagship youth education program is a fun, fast-paced team competition for high school students. Academic WorldQuest tests players’ knowledge of current international politics, geography, global economics, history, and world cultures.",
-        "url": "https://www.worldaffairscouncils.org/WorldQuest/",
-        "tags": [
-            "All Grades",
-            "Competition",
-            "Global Affairs",
-            "Virtual"
-        ],
-        "tagsBucket": [
-            "Competition",
-            "Virtual",
-            "All Grades",
-            "Global Affairs"
-        ]
-    },
+    
     {
         "id": 989,
         "title": "Aerial Drone Competition",

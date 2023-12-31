@@ -51,7 +51,7 @@
 
             <nav id="navbar" class="navbar order-last order-lg-0">
                 <ul>
-                    <li><a class="nav-link scrollto" href="#">Home</a></li>
+                    <li><a class="nav-link scrollto active" href="#">Home</a></li>
                     <li class="dropdown">
                         <a href="index.html#popular-courses"><span>Courses</span> <i class="bi bi-chevron-down"></i></a>
 
@@ -72,18 +72,20 @@
                         </ul>
                     <li><a href="notebooks.html">Python Notebooks</a></li>
                     <li class="dropdown">
-                        <a class="nav-link scrollto"  href="congress.html"><span>Coding Competitions</span> <i class="bi bi-chevron-down"></i></a>
+                        <a href="#"><span>Coding Competitions</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="congress.html">Congressional App Challenge</a></li>
-                            <li><a href="https://www.usaco.org/">USACO</a></li>
+                            <li><a href="nasa.html">NASA ADC</a></li>
+                            <li><a href="http://www.usaco.org/index.php">USACO Challenge</a></li>
+                            <li><a href="https://usaco.guide/dashboard">USACO Guide</a></li>
                             
                         </ul>
                     </li>
                     <li class="dropdown">
-                        <a class="active" href="envision.html"><span>Project Envision</span></i></a>
+                        <a class="nav-link scrollto active" href="envision.html"><span>Project Envision</span></i></a>
                         
                     </li>
-                    <li><a class="nav-link scrollto" href="gallery.html">Gallery</a></li>
+                    <li><a class="nav-link scrollto" href="gallery.html">Events</a></li>
 
                     <li class="dropdown">
                         <a href="aboutus.html"><span>About</span> <i class="bi bi-chevron-down"></i></a>
@@ -119,15 +121,19 @@
     <div class="section-title">
         <h2>&nbsp;</h2>
         <h2>&nbsp;</h2>
-        <h2>Internships, Research Opportunities & Summer Programs.</h2>
-        <!--<p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>-->
-        </div>
+        <h2 class="text-success">Internships, Research Opportunities & Summer Programs.</h2>
+        <h4>&nbsp;</h4>    
+    </div>
 
     <!-- ======= Featured Services Section ======= -->
    
         
         <div class="container">
-            
+            <!-- search -->
+            <div class="input-group mb-3">
+                <input type="text" id="searchInput" class="form-control border border-secondary shadow" placeholder="Search Internships..." aria-label="Search Internships..." aria-describedby="basic-addon2">
+                <span class="input-group-text border border-secondary shadow" id="jsonDataSize">Total Results: </span>
+            </div>
             <div id="internshipsList" class="row mt-3"></div>
         </div>
     
@@ -137,8 +143,11 @@
     <footer id="footer">
 
         <div class="container">
+
             <div class="copyright">
-                &copy; Copyright <strong><span>GoTechBytes</span></strong>. All Rights Reserved
+                A 501(c)(3) non-profit, K-12 STEM initiative by the high-school students. <br />
+                San Ramon, California, United States <br/>
+                &copy; Copyright <strong><span>Gotech Bytes</span></strong>. All Rights Reserved.
             </div>
 
 
@@ -165,90 +174,155 @@
     <script src="assets/js/main.js"></script>
 
     <script type="module">
-        //import data from 'envision.json' assert { type: 'json' };
-        //console.log(data);
-        // Function to fetch JSON data from a file
-        function fetchJSONFile(filename, callback) {
-            fetch(filename)
-                .then(response => response.json())
-                .then(data => callback(null, data))
-                .catch(error => callback(error, null));
-        }
 
         // Your JSON file path
         var jsonFilePath = 'https://www.gotechbytes.com/envision.json';
 
-        // Function to render internships
-        function renderInternships() {
+
+        // Initialize a global variable for jsonData
+        let jsonData = [];
+
+        // Function to fetch JSON data from a file
+        function fetchJSONFile(filename, callback) {
+            fetch(filename)
+                .then(response => response.json())
+                .then(data => {
+                    jsonData = data; // Store the data in the global variable
+
+                    // Sort the jsonData array based on the 'title' field
+                    jsonData.sort((a, b) => {
+                        const titleA = a.title.toUpperCase(); // Convert titles to uppercase for case-insensitive comparison
+                        const titleB = b.title.toUpperCase();
+                        if (titleA < titleB) {
+                            return -1;
+                        }
+                        if (titleA > titleB) {
+                            return 1;
+                        }
+                        return 0;
+                    });
+
+                    callback(null, jsonData);
+                })
+                .catch(error => callback(error, null));
+        }
+
+        // Event listener for input change to trigger search
+        searchInput.addEventListener('input', function(event) {
+            const searchQuery = event.target.value.trim();
+
+            if (searchQuery.length > 0) {
+                console.log('search' + searchQuery);
+                const filteredInternships = filterInternships(searchQuery, jsonData); // Pass jsonData as an argument
+                renderFilteredInternships(filteredInternships);
+            } else {
+                // If search query is empty, display all internships
+                renderAllInternships();
+            }
+        });
+
+        // Function to filter and sort internships based on search query
+        function filterInternships(query, data) {
+            // Create a copy of the data for sorting purposes
+            const sortedData = [...data];
+
+            // Sort the copy of the data based on the 'title' field
+            sortedData.sort((a, b) => {
+                const titleA = a.title.toUpperCase();
+                const titleB = b.title.toUpperCase();
+                if (titleA < titleB) {
+                    return -1;
+                }
+                if (titleA > titleB) {
+                    return 1;
+                }
+                return 0;
+            });
+
+            if (query.length === 0) {
+                // If the query is empty, return all internships sorted by title
+                return sortedData;
+            }
+
+            const filteredInternships = sortedData.filter(internship => {
+                // Convert all values to lowercase for case-insensitive search
+                const valuesToSearch = Object.values(internship).join(' ').toLowerCase();
+                return valuesToSearch.includes(query.toLowerCase());
+            });
+
+            console.log('filtered length = ' + filteredInternships.length);
+            return filteredInternships;
+        }
+
+        // Function to render internships based on filtered data
+        function renderFilteredInternships(filteredData) {
             var internshipsList = document.getElementById('internshipsList');
 
             // Clear existing content
             internshipsList.innerHTML = '';
 
-            // Call fetchJSONFile to get data from the JSON file
-            fetchJSONFile(jsonFilePath, function(error, jsonData) {
-                if (error) {
-                    console.error('Error loading JSON file:', error);
-                    return;
-                }
+            // Loop through filtered data and create HTML elements
+            filteredData.forEach(function(internship) {
+                var internshipCard = document.createElement('div');
+                internshipCard.className = 'col-12 mb-4';
 
-                // Sort the jsonData array based on the 'title' field
-                jsonData.sort((a, b) => {
-                    const titleA = a.title.toUpperCase(); // Convert titles to uppercase for case-insensitive comparison
-                    const titleB = b.title.toUpperCase();
-                    if (titleA < titleB) {
-                        return -1;
-                    }
-                    if (titleA > titleB) {
-                        return 1;
-                    }
-                    return 0;
-                });
-                
-                // Loop through JSON data and create HTML elements
-                jsonData.forEach(function(internship) {
-                    var internshipCard = document.createElement('div');
-                    internshipCard.className = 'col-12 mb-4';
-
-                    var cardContent = `
-                        <div class="card shadow border-0">
-                            <div class="card-body text-left">
-                                <h5 class="card-title text-left" >
-                                    <a href="${internship.url}" target="_blank">${internship.title}</a>
-                                </h5>
-                                <p class="card-text text-left">${internship.description}</p>
+                var cardContent = `
+                    <div class="card shadow card-radius border-1">
+                        <div class="card-body text-left">
+                            <h5 class="card-title text-left">
+                                <a href="${internship.url}" target="_blank">${internship.title}</a>
+                            </h5>
+                            <p class="card-text text-left">${internship.description}</p>
+                            <div class="row mb-3">
+                                ${internship.tags && internship.tags.length > 0 ? `
                                     <div class="row mb-3">
-                        ${internship.tags && internship.tags.length > 0 ? `
-                            <div class="row mb-3">
-                                ${internship.tags.slice(0, 5).map(tag => `
-                                    <div class="col-2">
-                                        <button type="button" class="btn btn-outline-secondary btn-sm">${tag}</button>
-                                    </div>
-                                `).join('')}
-                            </div>`
-                            : ''}
-                        ${internship.tags && internship.tags.length > 5 ? `
-                            <div class="row mb-3">
-                                ${internship.tags.slice(5).map(tag => `
-                                    <div class="col-3">
-                                        <button type="button" class="btn btn-outline-secondary btn-sm">${tag}</button>
-                                    </div>
-                                `).join('')}
-                            </div>`
-                            : ''}
-                    </div>
+                                        ${internship.tags.slice(0, 5).map(tag => `
+                                            <div class="col-2">
+                                                <button type="button" class="btn btn-outline-secondary btn-sm">${tag}</button>
+                                            </div>
+                                        `).join('')}
+                                    </div>`
+                                    : ''}
+                                ${internship.tags && internship.tags.length > 5 ? `
+                                    <div class="row mb-3">
+                                        ${internship.tags.slice(5).map(tag => `
+                                            <div class="col-3">
+                                                <button type="button" class="btn btn-outline-secondary btn-sm">${tag}</button>
+                                            </div>
+                                        `).join('')}
+                                    </div>`
+                                    : ''}
                             </div>
                         </div>
-                        `;
+                    </div>
+                `;
 
-                    internshipCard.innerHTML = cardContent;
-                    internshipsList.appendChild(internshipCard);
-                });
+                internshipCard.innerHTML = cardContent;
+                internshipsList.appendChild(internshipCard);
             });
+
+            // Update the content of the jsonDataSize element
+            const jsonDataSizeElement = document.getElementById('jsonDataSize');
+            jsonDataSizeElement.textContent = `Total Results: ${filteredData.length}`;
         }
 
-        // Call the function to render internships
-        renderInternships();
+        // Function to render all internships
+        function renderAllInternships() {
+            renderFilteredInternships(jsonData);
+        }
+
+
+        // Call the function to fetch and render all internships initially
+        fetchJSONFile(jsonFilePath, function(error, jsonData) {
+            if (error) {
+                console.error('Error loading JSON file:', error);
+                return;
+            }
+            
+            renderAllInternships();
+        });
+
+
     </script>
 
 </body>
